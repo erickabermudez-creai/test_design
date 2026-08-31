@@ -12,10 +12,10 @@ export interface ButtonProps {
 }
 
 const variantStyles: Record<NonNullable<ButtonProps['variant']>, string> = {
-  primary: 'bg-violet-600 text-white hover:bg-violet-700 focus-visible:outline-violet-600',
+  primary: 'bg-blue-600 text-white hover:bg-blue-700 focus-visible:outline-blue-600',
   secondary:
     'bg-white text-gray-900 ring-1 ring-inset ring-gray-300 hover:bg-gray-50 focus-visible:outline-gray-400',
-  ghost: 'bg-transparent text-violet-600 hover:bg-violet-50 focus-visible:outline-violet-600',
+  ghost: 'bg-transparent text-blue-600 hover:bg-blue-50 focus-visible:outline-blue-600',
 };
 
 const sizeStyles: Record<NonNullable<ButtonProps['size']>, string> = {
